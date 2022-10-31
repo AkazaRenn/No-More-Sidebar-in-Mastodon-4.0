@@ -4,7 +4,7 @@
 // @match       https://mas.to/*
 // @match       https://mastodon.social/*
 // @grant       none
-// @version     1.0
+// @version     1.1
 // @author      mas.to/@Renn
 // @description 10/31/2022, 2:47:56 PM
 // @license     GNU GPLv3
