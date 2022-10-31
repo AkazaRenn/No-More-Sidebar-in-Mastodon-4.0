@@ -37,8 +37,8 @@ window.addEventListener('load',() => {
   topNavigationDiv.setAttribute('class', 'ui__header__links');
   topNavigationDiv.style['overflow-x'] = 'scroll';
   topNavigationDiv.style['overflow-y'] = 'hidden';
-  topNavigationDiv.style['padding-top'] = '10px';
-  topNavigationDiv.style['padding-left'] = '0';
+  topNavigationDiv.style['padding-top'] = '12px';
+  topNavigationDiv.style['padding-left'] = '6px';
   var topbar = document.getElementsByClassName('ui__header')[0];
   topbar.insertBefore(topNavigationDiv, headerlinks);
 
