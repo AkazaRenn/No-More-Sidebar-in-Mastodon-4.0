@@ -4,7 +4,7 @@
 // @match       https://mas.to/*
 // @match       https://mastodon.social/*
 // @grant       none
-// @version     1.1
+// @version     1.2
 // @author      mas.to/@Renn
 // @description 10/31/2022, 2:47:56 PM
 // @license     GNU GPLv3
@@ -19,8 +19,8 @@ for(let j = 0; j < document.styleSheets.length; j++) {
     }
   }
 }
-notificationBadgeRule.style.removeProperty('top');
-notificationBadgeRule.style.removeProperty('left');
+notificationBadgeRule.style.setProperty('top', '-1px');
+notificationBadgeRule.style.setProperty('left', 0);
 
 // Wait for page to load otherwise it won't work
 // Still won't work when not logged in, don't know why
@@ -39,6 +39,7 @@ window.addEventListener('load',() => {
   topNavigationDiv.style['overflow-y'] = 'hidden';
   topNavigationDiv.style['padding-top'] = '14px';
   topNavigationDiv.style['padding-left'] = '6px';
+  topNavigationDiv.style['gap'] = '0';
   var topbar = document.getElementsByClassName('ui__header')[0];
   topbar.insertBefore(topNavigationDiv, headerlinks);
 
@@ -47,7 +48,7 @@ window.addEventListener('load',() => {
   Array.from(sidebarItems).forEach(moveToTopBar);
   function moveToTopBar(item, index, arr) {
     item.parentNode.removeChild(item);
-    item.style['min-width'] = '4px';
+    item.style['min-width'] = '11px';
     topNavigationDiv.appendChild(item);
   }
 
