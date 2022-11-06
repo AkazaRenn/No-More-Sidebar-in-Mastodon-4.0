@@ -7,7 +7,7 @@
 // @match       https://0rz.one/*
 // @match       https://mstdn.social/*
 // @grant       none
-// @version     1.3
+// @version     1.4
 // @author      mas.to/@Renn
 // @description 10/31/2022, 2:47:56 PM
 // @license     GNU GPLv3
