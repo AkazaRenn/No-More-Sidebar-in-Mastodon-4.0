@@ -3,8 +3,11 @@
 // @namespace   Violentmonkey Scripts
 // @match       https://mas.to/*
 // @match       https://mastodon.social/*
+// @match       https://bgme.me/*
+// @match       https://bgme.bid/*
+// @match       https://0rz.one/*
 // @grant       none
-// @version     1.2
+// @version     1.3
 // @author      mas.to/@Renn
 // @description 10/31/2022, 2:47:56 PM
 // @license     GNU GPLv3
