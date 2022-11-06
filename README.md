@@ -2,7 +2,7 @@
 
 Download from [GreasyFork](https://greasyfork.org/en/scripts/454048-no-more-sidebar-in-mastodon-4-0)
 
-Need [Violent Monkey](https://violentmonkey.github.io/get-it/) to work with.
+Need [Violentmonkey](https://violentmonkey.github.io/get-it/) to work with.
 
 # Credits
 
