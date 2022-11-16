@@ -8,7 +8,7 @@
 // @match       https://mstdn.social/*
 // @match       https://o3o.ca/*
 // @grant       none
-// @version     1.4
+// @version     1.5
 // @author      mas.to/@Renn
 // @description 10/31/2022, 2:47:56 PM
 // @license     GNU GPLv3
