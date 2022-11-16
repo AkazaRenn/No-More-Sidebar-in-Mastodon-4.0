@@ -6,6 +6,7 @@
 // @match       https://bgme.bid/*
 // @match       https://0rz.one/*
 // @match       https://mstdn.social/*
+// @match       https://o3o.ca/*
 // @grant       none
 // @version     1.4
 // @author      mas.to/@Renn
