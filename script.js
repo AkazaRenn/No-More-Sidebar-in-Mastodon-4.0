@@ -7,8 +7,9 @@
 // @match       https://0rz.one/*
 // @match       https://mstdn.social/*
 // @match       https://o3o.ca/*
+// @match       https://m.cmx.im/*
 // @grant       none
-// @version     1.5
+// @version     1.6
 // @author      mas.to/@Renn
 // @description 10/31/2022, 2:47:56 PM
 // @license     GNU GPLv3
