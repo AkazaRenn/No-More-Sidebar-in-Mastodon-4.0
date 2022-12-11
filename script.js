@@ -9,7 +9,7 @@
 // @match       https://o3o.ca/*
 // @match       https://m.cmx.im/*
 // @grant       none
-// @version     1.6
+// @version     2.0
 // @author      mas.to/@Renn
 // @description 10/31/2022, 2:47:56 PM
 // @license     GNU GPLv3
@@ -17,15 +17,14 @@
 
 // Make notification badge overlap the bell icon
 for(let j = 0; j < document.styleSheets.length; j++) {
-  stylesheet = document.styleSheets[j];
-  for(let i = 0; i < stylesheet.cssRules.length; i++) {
-    if(stylesheet.cssRules[i].selectorText === '.icon-with-badge__badge') {
-      notificationBadgeRule = stylesheet.cssRules[i];
-    }
+  if(document.styleSheets[j].href.endsWith('.chunk.css')) {
+    document.styleSheets[j].insertRule('.icon-with-badge__badge { top: -1px !important; left: 0 !important; }');
+    document.styleSheets[j].insertRule('.columns-area--mobile .column, .columns-area--mobile .drawer { overflow-y: scroll !important; }');
+    document.styleSheets[j].insertRule('.columns-area__panels__main { max-height: 100vh !important; }');
+    document.styleSheets[j].insertRule('body.app-body.layout-single-column { overflow-y: hidden !important; }');
+    break;
   }
 }
-notificationBadgeRule.style.setProperty('top', '-1px');
-notificationBadgeRule.style.setProperty('left', 0);
 
 // Wait for page to load otherwise it won't work
 // Still won't work when not logged in, don't know why
