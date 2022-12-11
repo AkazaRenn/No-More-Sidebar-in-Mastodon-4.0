@@ -16,6 +16,7 @@
 // ==/UserScript==
 
 // Make notification badge overlap the bell icon
+// Fix scrollbar positions
 for(let j = 0; j < document.styleSheets.length; j++) {
   if(document.styleSheets[j].href.endsWith('.chunk.css')) {
     document.styleSheets[j].insertRule('.icon-with-badge__badge { top: -1px !important; left: 0 !important; }');
