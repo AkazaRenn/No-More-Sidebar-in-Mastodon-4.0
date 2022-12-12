@@ -27,20 +27,10 @@
 		overflow-x: hidden;
 	}
 }
-
 .ui__header__logo {
 	width: 0 !important;
 	padding: 0 !important;
 }
 .navigation-panel__logo {
 	display: none !important;
-}
-body.app-body.layout-single-column {
-	overflow-y: hidden !important;
-}
-.columns-area--mobile .column, .columns-area--mobile .drawer { 
-	overflow-y: auto !important; 
-}
-.columns-area__panels__main { 
-	max-height: 100vh !important; 
 }
