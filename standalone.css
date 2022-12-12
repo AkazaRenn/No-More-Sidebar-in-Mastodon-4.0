@@ -1,0 +1,46 @@
+@media screen and (max-width:  889px) {
+	.column-link--transparent {
+		transform: rotate(90deg);
+	}
+	.columns-area__panels__pane__inner {
+		transform: rotate(-90deg);
+		transform-origin: 0 0;
+		max-height: calc(100vw - 155.59px);
+		overflow-y: scroll;
+		left: 0;
+		margin-left: 5px
+	}
+	.columns-area__panels__pane__inner::-webkit-scrollbar {
+		display: none;
+	}
+	.navigation-panel {
+		overflow: hidden;
+	}
+	.columns-area__panels__main {
+		width: 100%
+	}
+	.columns-area__panels__pane--navigational {
+		min-width: 0;
+		z-index: 999;
+	}
+	body.app-body.layout-single-column {
+		overflow-x: hidden;
+	}
+}
+
+.ui__header__logo {
+	width: 0 !important;
+	padding: 0 !important;
+}
+.navigation-panel__logo {
+	display: none !important;
+}
+body.app-body.layout-single-column {
+	overflow-y: hidden !important;
+}
+.columns-area--mobile .column, .columns-area--mobile .drawer { 
+	overflow-y: scroll !important; 
+}
+.columns-area__panels__main { 
+	max-height: 100vh !important; 
+}
