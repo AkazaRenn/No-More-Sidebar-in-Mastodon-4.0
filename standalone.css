@@ -15,6 +15,7 @@
 	}
 	.navigation-panel {
 		overflow: hidden;
+		height: fit-content;
 	}
 	.columns-area__panels__main {
 		width: 100%;
