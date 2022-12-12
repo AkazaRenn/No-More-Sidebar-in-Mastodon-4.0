@@ -5,7 +5,7 @@
 	.columns-area__panels__pane__inner {
 		transform: rotate(-90deg);
 		transform-origin: 0 0;
-		max-height: calc(100vw - 155.59px);
+		max-height: calc(100vw - 157.59px);
 		overflow-y: scroll;
 		left: 0;
 		margin-left: 5px
