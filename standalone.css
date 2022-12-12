@@ -39,7 +39,7 @@ body.app-body.layout-single-column {
 	overflow-y: hidden !important;
 }
 .columns-area--mobile .column, .columns-area--mobile .drawer { 
-	overflow-y: scroll !important; 
+	overflow-y: auto !important; 
 }
 .columns-area__panels__main { 
 	max-height: 100vh !important; 
