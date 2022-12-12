@@ -5,10 +5,10 @@
 	.columns-area__panels__pane__inner {
 		transform: rotate(-90deg);
 		transform-origin: 0 0;
-		max-height: calc(100vw - 157.59px);
+		max-height: calc(100vw - 160.59px);
 		overflow-y: scroll;
 		left: 0;
-		margin-left: 5px
+		margin-left: 5px;
 	}
 	.columns-area__panels__pane__inner::-webkit-scrollbar {
 		display: none;
@@ -17,7 +17,7 @@
 		overflow: hidden;
 	}
 	.columns-area__panels__main {
-		width: 100%
+		width: 100%;
 	}
 	.columns-area__panels__pane--navigational {
 		min-width: 0;
