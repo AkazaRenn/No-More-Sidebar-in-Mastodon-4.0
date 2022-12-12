@@ -9,7 +9,7 @@
 // @match       https://o3o.ca/*
 // @match       https://m.cmx.im/*
 // @grant       none
-// @version     2.0
+// @version     2.1
 // @author      mas.to/@Renn
 // @description 10/31/2022, 2:47:56 PM
 // @license     GNU GPLv3
@@ -20,9 +20,9 @@
 for(let j = 0; j < document.styleSheets.length; j++) {
   if(document.styleSheets[j].href.endsWith('.chunk.css')) {
     document.styleSheets[j].insertRule('.icon-with-badge__badge { top: -1px !important; left: 0 !important; }');
-    document.styleSheets[j].insertRule('.columns-area--mobile .column, .columns-area--mobile .drawer { overflow-y: scroll !important; }');
-    document.styleSheets[j].insertRule('.columns-area__panels__main { max-height: 100vh !important; }');
-    document.styleSheets[j].insertRule('body.app-body.layout-single-column { overflow-y: hidden !important; }');
+//     document.styleSheets[j].insertRule('.columns-area--mobile .column, .columns-area--mobile .drawer { overflow-y: scroll !important; }');
+//     document.styleSheets[j].insertRule('.columns-area__panels__main { max-height: 100vh !important; }');
+//     document.styleSheets[j].insertRule('body.app-body.layout-single-column { overflow-y: hidden !important; }');
     break;
   }
 }
