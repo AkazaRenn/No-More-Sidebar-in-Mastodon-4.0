@@ -8,7 +8,7 @@ Need [Violentmonkey](https://violentmonkey.github.io/get-it/) to work with.
 
 This file is a pure CSS theme that can be applied as a Mastondon custom theme, in which way getting back top navigation bar without an browser extension is possible. It does a similar thing as `script.js` but has more limitations (both visually and functionally) due to the nature of CSS (alone with the poor coding of the project it applies to). 
 
-**You don't need to use the script together with the CSS theme, actually by applying the script, what has been changed in the CSS will mostly get removed.**
+**You don't need to use the script together with it, actually by applying the script, what has been changed in it will mostly get removed.**
 
 # Credits
 
