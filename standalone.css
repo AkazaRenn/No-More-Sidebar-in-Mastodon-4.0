@@ -4,13 +4,13 @@
 		scroll-snap-align: start;
 	}
 	.columns-area__panels__pane__inner {
+		height: fit-content;
 		transform: rotate(-90deg);
 		transform-origin: 0 0;
 		left: 0;
 		margin-left: 5px;
 	}
 	.navigation-panel {
-		height: fit-content;
 		max-height: calc(100vw - 160.59px);
 		overflow-y: auto;
 		overflow-x: hidden;
