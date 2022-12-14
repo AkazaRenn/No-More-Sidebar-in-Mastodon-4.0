@@ -13,4 +13,8 @@ This file is a pure CSS theme that can be applied as a Mastondon custom theme, i
 # Credits
 
 Mastodon founder Eugen Rochko and his highly respected "professional designer"
-who provided the chance for me to make this script.
+who provided the chance for this script.
+
+# Warning
+
+The owner of the project knows nothing about JavaScript or CSS. All the codes are written by a monkey who breach into their room regularly. The owner will try their best to transfer the needs of the users to the monkey, but no guarantees nor warranties will be provided.
