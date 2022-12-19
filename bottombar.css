@@ -1,7 +1,4 @@
 @media screen and (max-width:  889px) {
-	body::-webkit-scrollbar {
-		display: none;
-	}
 	.column-link--transparent {
 		transform: rotate(90deg);
 		scroll-snap-align: start;
@@ -26,7 +23,7 @@
 		top: 0;
 	}
 	.navigation-panel {
-		max-height: calc(100vw - 100px);
+		max-height: calc(100vw - 107px);
 		overflow: auto;
 		scroll-snap-type: both mandatory;
 	}
