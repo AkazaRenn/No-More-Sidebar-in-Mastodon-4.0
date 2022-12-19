@@ -12,7 +12,7 @@
 	.navigation-panel {
 		max-height: calc(100vw - 160.59px);
 		overflow-y: auto;
-		overflow-x: hidden;
+		overflow-x: auto;
 		scroll-snap-type: y mandatory;
 	}
 	.navigation-panel::-webkit-scrollbar {
