@@ -10,6 +10,10 @@ This file is a pure CSS theme that can be applied as a Mastondon custom theme, i
 
 **You don't need to use the script together with it, actually by applying the script, what has been changed in it will mostly get removed.**
 
+### Preview
+
+<img src="https://github.com/AkazaRenn/No-More-Sidebar-in-Mastodon-4.0/raw/main/css_screenshot.png" alt="Preview image of standalone.css on mas.to" width="250" />
+
 # Credits
 
 Mastodon founder Eugen Rochko and his highly respected "professional designer"
