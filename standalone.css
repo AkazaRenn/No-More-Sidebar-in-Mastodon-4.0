@@ -10,7 +10,7 @@
 		left: 5px;
 	}
 	.navigation-panel {
-		max-height: calc(100vw - 160.59px);
+		max-height: calc(100vw - 117px);
 		overflow: auto;
 		scroll-snap-type: both mandatory;
 	}
@@ -26,6 +26,18 @@
 	}
 	body.app-body.layout-single-column {
 		overflow-x: hidden;
+	}
+	.ui__header__links .button span {
+		display: none;
+	}
+	.ui__header__links .button::before {
+    	content: "";
+	}
+	.ui__header__links .button {
+		padding: 7.45px 0 0 0.1px;
+		font-size: 18px;
+		height: 35px;
+		width: 35px;
 	}
 }
 .ui__header__logo {
