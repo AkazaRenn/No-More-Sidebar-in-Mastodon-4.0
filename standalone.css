@@ -34,8 +34,8 @@
     	content: "";
 	}
 	.ui__header__links .button {
-		padding: 7.45px 0 0 0.1px;
-		font-size: 18px;
+		padding: 7.5px 0 0 0;
+		font-size: 20px;
 		height: 35px;
 		width: 35px;
 	}
