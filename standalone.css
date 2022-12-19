@@ -10,7 +10,7 @@
 		left: 5px;
 	}
 	.navigation-panel {
-		max-height: calc(100vw - 117px);
+		max-height: calc(100vw - 107px);
 		overflow: auto;
 		scroll-snap-type: both mandatory;
 	}
