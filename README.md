@@ -18,7 +18,7 @@ This file is a pure CSS theme that can be applied as a Mastondon custom theme, i
 
 ## [bottombar.css](https://github.com/AkazaRenn/No-More-Sidebar-in-Mastodon-4.0/blob/main/css/bottombar.css)
 
-`standalone.css` but navbar is on the bottom.
+`topbar.css` but navbar is on the bottom.
 
 ### Preview
 
