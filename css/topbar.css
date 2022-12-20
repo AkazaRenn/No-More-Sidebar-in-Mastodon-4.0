@@ -13,6 +13,8 @@
 		max-height: calc(100vw - 107px);
 		overflow: auto;
 		scroll-snap-type: both mandatory;
+		border-left: none !important;
+		background-color: transparent !important;
 	}
 	.navigation-panel::-webkit-scrollbar {
 		display: none;
