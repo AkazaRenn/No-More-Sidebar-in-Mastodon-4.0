@@ -1,0 +1,71 @@
+/*
+This one is made sticky to follow 
+the bouncing effect on Safari and Chrome. 
+But it's too hacky and not compatible with
+the light theme, not recommended to use in
+production.
+*/
+
+@media screen and (max-width:  889px) {
+	.column-link--transparent {
+		transform: rotate(90deg);
+		scroll-snap-align: start;
+	}
+	.columns-area__panels__pane__inner {
+		height: fit-content;
+ 		position: relative;
+	}
+	.navigation-panel {
+		max-height: calc(100vw - 95px);
+		overflow: auto;
+		scroll-snap-type: both mandatory;
+		border-right: 1px solid #282c37;
+		border-left: none !important;
+	}
+	.navigation-panel::-webkit-scrollbar {
+		display: none;
+	}
+	.columns-area__panels__main {
+		width: 100%;
+	}
+	.columns-area__panels__pane--navigational {
+		min-width: 0;
+		position: sticky;
+		top: 55px;
+ 		transform: rotate(-90deg);
+ 		transform-origin: top left;
+		margin-left: -55px;
+		right: calc(100vw - 55px);
+		border-left: 1px solid #393f4f;
+		background-color: #282c37;
+	}
+	body.app-body.layout-single-column {
+		overflow-x: hidden;
+	}
+	.ui__header__links .button span {
+		display: none;
+	}
+	.ui__header__links .button::before {
+    	content: "";
+	}
+	.ui__header__links .button {
+		padding: 7.5px 0 0 0;
+		font-size: 20px;
+		height: 35px;
+		width: 35px;
+	}
+	.ui__header__links {
+		padding-left: 5px;
+	}
+	.ui__header {
+		width: 95px;
+		margin-left: auto;
+	}
+}
+.ui__header__logo {
+	width: 0 !important;
+	padding: 0 !important;
+}
+.navigation-panel__logo {
+	display: none !important;
+}
