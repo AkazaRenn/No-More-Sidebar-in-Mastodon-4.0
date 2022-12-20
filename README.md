@@ -4,7 +4,7 @@ Install from [Greasy Fork](https://greasyfork.org/en/scripts/454048-no-more-side
 
 Need [Violentmonkey](https://violentmonkey.github.io/get-it/) to work with.
 
-## standalone.css
+## [topbar.css](https://github.com/AkazaRenn/No-More-Sidebar-in-Mastodon-4.0/blob/main/css/topbar.css)
 
 **Do NOT set it as the default theme of your instance, it will likely block the login button. Please make sure only logged-in users are using it.**
 
@@ -14,11 +14,15 @@ This file is a pure CSS theme that can be applied as a Mastondon custom theme, i
 
 ### Preview
 
-<img src="https://github.com/AkazaRenn/No-More-Sidebar-in-Mastodon-4.0/raw/main/css_screenshot.png" alt="Preview image of standalone.css on mas.to" width="250" />
+<img src="https://github.com/AkazaRenn/No-More-Sidebar-in-Mastodon-4.0/raw/main/res/css_screenshot.png" alt="Preview image of standalone.css on mas.to" width="250" />
 
-## bottombar.css
+## [bottombar.css](https://github.com/AkazaRenn/No-More-Sidebar-in-Mastodon-4.0/blob/main/css/bottombar.css)
 
 `standalone.css` but navbar is on the bottom.
+
+### Preview
+
+<img src="https://github.com/AkazaRenn/No-More-Sidebar-in-Mastodon-4.0/raw/main/res/css_screenshot_bottombar.png" alt="Preview image of standalone.css on mas.to" width="250" />
 
 # Credits
 
