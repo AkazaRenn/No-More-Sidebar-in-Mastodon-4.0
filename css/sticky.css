@@ -7,6 +7,12 @@ production.
 */
 
 @media screen and (max-width:  889px) {
+	body::-webkit-scrollbar {
+		display: none;
+	}
+	.navigation-panel {
+		max-height: calc(100vw - 95px);
+	}
 	.column-link--transparent {
 		transform: rotate(90deg);
 		scroll-snap-align: start;
