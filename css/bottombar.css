@@ -52,7 +52,7 @@
     	content: "";
 	}
 	.ui__header__links .button {
-		padding: 7.5px 0 0 0;
+		padding: 6.6px 0 0px 0.8px;
 		font-size: 20px;
 		height: 35px;
 		width: 35px;
