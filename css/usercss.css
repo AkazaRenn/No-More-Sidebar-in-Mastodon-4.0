@@ -1,0 +1,94 @@
+/* ==UserStyle==
+@name           No More Side Bar in Mastodon 4.0
+@namespace      github.com/AkazaRenn/No-More-Sidebar-in-Mastodon-4.0
+@version        1.0.0
+@description    Move the side bar in Mastodon 4.0 to top or bottom
+@author         @Renn@iee.engineer
+@preprocessor 	stylus
+
+@var checkbox hideScrollbar "Hide scrollbar"  1
+@var select navPos "Navbar position" {
+    "Top": "top",
+    "Bottom": "bottom"
+}
+==/UserStyle== */
+@-moz-document domain("mas.to") {
+	@media screen and (max-width: 889px) {
+		if hideScrollbar {
+			body::-webkit-scrollbar {
+				display: none;
+			}
+			.navigation-panel {
+				max-height: calc(100vw - 100px);
+			}
+		}
+		if not hideScrollbar {
+			.navigation-panel {
+				max-height: calc(100vw - 112px);
+			}
+		}
+		.column-link--transparent {
+			transform: rotate(90deg);
+			scroll-snap-align: start;
+		}
+		.columns-area__panels__pane__inner {
+			height: fit-content;
+			transform: rotate(-90deg);
+			transform-origin: 0 0;
+			left: 5px;
+		}
+		.navigation-panel {
+			overflow: auto;
+			scroll-snap-type: both mandatory;
+		}
+		.navigation-panel::-webkit-scrollbar {
+			display: none;
+		}
+		.columns-area__panels__main {
+			width: 100%;
+		}
+		.columns-area__panels__pane--navigational {
+			min-width: 0;
+			z-index: 999;
+		}
+		body.app-body.layout-single-column {
+			overflow-x: hidden;
+		}
+		.ui__header__links .button span {
+			display: none;
+		}
+		.ui__header__links .button::before {
+			content: "";
+		}
+		.ui__header__links .button {
+			padding: 7.5px 0 0 0;
+			font-size: 20px;
+			height: 35px;
+			width: 35px;
+		}
+		if navPos=="bottom" {
+			.columns-area__panels__pane__inner {
+				top: calc(100vh + 1px);
+			}
+			.ui__header {
+				top: calc(100vh - 55px);
+				border-bottom: none;
+				border-top: 1px solid #393f4f;
+			}
+			.columns-area__panels {
+				margin-top: -55px;
+				margin-bottom: 55px;
+			}
+			.tabs-bar__wrapper {
+				top: 0;
+			}
+		}
+	}
+	.ui__header__logo {
+		width: 0 !important;
+		padding: 0 !important;
+	}
+	.navigation-panel__logo {
+		display: none !important;
+	}
+}
