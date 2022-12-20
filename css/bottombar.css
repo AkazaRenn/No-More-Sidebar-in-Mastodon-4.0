@@ -1,19 +1,21 @@
 @media screen and (max-width:  889px) {
 	.column-link--transparent {
-		transform: rotate(90deg);
+		transform: rotate(-90deg) scaleX(-1);
 		scroll-snap-align: start;
 	}
 	.columns-area__panels__pane__inner {
 		height: fit-content;
-		transform: rotate(-90deg);
-		transform-origin: 0 0;
-		left: 5px;
-		top: calc(100vh + 1px);
+		transform: rotate(90deg);
+		transform-origin: bottom right;
+		bottom: 0;
+		left: -50px;
 	}
 	.ui__header {
-		top: calc(100vh - 55px);
-		border-bottom: none;
-		border-top: 1px solid #393f4f;
+		transform: scaleY(-1);
+		transform-origin: 50vw 50vh;
+	}
+	.ui__header__links * {
+		transform: scaleY(-1);
 	}
 	.columns-area__panels {
 		margin-top: -55px;
@@ -26,6 +28,9 @@
 		max-height: calc(100vw - 107px);
 		overflow: auto;
 		scroll-snap-type: both mandatory;
+		transform: scaleY(-1);
+		border-left: none !important;
+		background-color: transparent !important;
 	}
 	.navigation-panel::-webkit-scrollbar {
 		display: none;
