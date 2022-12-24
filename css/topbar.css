@@ -29,15 +29,16 @@
 	body.app-body.layout-single-column {
 		overflow-x: hidden;
 	}
-	.ui__header__links .button span {
+	.ui__header__links .button:not(.button-tertiary) span {
 		display: none;
 	}
-	.ui__header__links .button::before {
-    		content: "";
+	.ui__header__links .button:not(.button-tertiary)::before {
+		content: "";
 	}
-	.ui__header__links .button {
+	.ui__header__links .button:not(.button-tertiary) {
 		padding: 6.6px 0 0px 0.8px;
 		font-size: 20px;
+		font-family: FontAwesome;
 		height: 35px;
 		width: 35px;
 	}
