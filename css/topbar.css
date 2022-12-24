@@ -32,8 +32,16 @@
 	.ui__header__links .button span {
 		display: none;
 	}
+	.ui__header__links .button {
+		display: inline-block;
+		font: normal normal normal 14px/1 FontAwesome;
+		font-size: inherit;
+		text-rendering: auto;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
 	.ui__header__links .button::before {
-    		content: "";
+		content: "";
 	}
 	.ui__header__links .button {
 		padding: 6.6px 0 0px 0.8px;
