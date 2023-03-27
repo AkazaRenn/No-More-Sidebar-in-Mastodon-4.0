@@ -1,4 +1,4 @@
-@media screen and (max-width:  889px) {
+@media screen and (max-width: 889px) {
 	.column-link--transparent {
 		transform: rotate(90deg);
 		scroll-snap-align: start;
@@ -15,6 +15,7 @@
 		scroll-snap-type: both mandatory;
 		border-left: none !important;
 		background-color: transparent !important;
+		height: fit-content !important;
 	}
 	.navigation-panel::-webkit-scrollbar {
 		display: none;
@@ -29,13 +30,13 @@
 	body.app-body.layout-single-column {
 		overflow-x: hidden;
 	}
-	.ui__header__links .button:not(.button-tertiary) span {
+	.ui__header__links .button[href="/publish"] span {
 		display: none;
 	}
-	.ui__header__links .button:not(.button-tertiary)::before {
+	.ui__header__links .button[href="/publish"]::before {
 		content: "";
 	}
-	.ui__header__links .button:not(.button-tertiary) {
+	.ui__header__links .button[href="/publish"] {
 		padding: 6.6px 0 0px 0.8px;
 		font-size: 20px;
 		font-family: FontAwesome;
