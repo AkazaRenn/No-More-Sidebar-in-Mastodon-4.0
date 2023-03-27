@@ -29,4 +29,4 @@ who provided the chance for this script.
 
 # Warning
 
-The owner of the project knows nothing about JavaScript or CSS. All the codes are written by a monkey who breach into their room regularly. The owner will try their best to transfer the needs of the users to the monkey, but no guarantees nor warranties will be provided.
+The owner of the project knows nothing about JavaScript or CSS. All the codes are written by a monkey who breaches into their room regularly. The owner will try their best to transfer the needs of the users to the monkey, but no guarantees nor warranties will be provided.
