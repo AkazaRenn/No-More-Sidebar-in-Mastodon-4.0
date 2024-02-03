@@ -69,6 +69,7 @@
     }
 }
 .ui__header__logo {
+    visibility: hidden !important;
     opacity: 0 !important;
     width: 0 !important;
     padding: 0 !important;
