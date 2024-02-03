@@ -7,18 +7,22 @@
         height: fit-content;
         transform: rotate(-90deg);
         transform-origin: 0 0;
-        left: 5px;
+        left: 0;
     }
     .navigation-panel {
-        max-height: calc(100vw - 107px);
+        max-height: calc(100vw - 145px);
         overflow: auto;
-        scroll-snap-type: both mandatory;
+        scroll-snap-type: both proximity;
         border-left: none !important;
         background-color: transparent !important;
         height: fit-content !important;
     }
     .navigation-panel::-webkit-scrollbar {
         display: none;
+    }
+    /* Add some space between the home button and the left edge */
+    .navigation-panel > :nth-child(2) {
+        margin-top: 10px;
     }
     .columns-area__panels__main {
         width: 100%;
@@ -30,6 +34,14 @@
     body.app-body.layout-single-column {
         overflow-x: hidden;
     }
+    .ui__header__links {
+        border-left-color: #393F4F;
+        border-left-width: 1px;
+        border-style: solid;
+        height: 100%;
+        gap: 0px;
+        padding-left: 0;
+    }
     .ui__header__links .button[href="/publish"] span {
         display: none;
     }
@@ -37,14 +49,27 @@
         content: "";
     }
     .ui__header__links .button[href="/publish"] {
-        padding: 6.6px 0 0 0.8px;
-        font-size: 20px;
+        font-size: 18px;
         font-family: FontAwesome;
-        height: 35px;
-        width: 35px;
+    }
+    .ui__header__links > .button {
+        border: none;
+        height: 100%;
+        width: 47.5px;
+        align-items: center;
+        display: flex;
+        color: #D9E1E8;
+    }
+    .ui__header__links > .button:hover {
+        color: white;
+        background-color: transparent;
+    }
+    .ui__header__links > :not(.button) {
+        margin-left: 5px;
     }
 }
 .ui__header__logo {
+    opacity: 0 !important;
     width: 0 !important;
     padding: 0 !important;
 }
