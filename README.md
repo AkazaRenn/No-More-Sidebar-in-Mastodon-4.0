@@ -1,8 +1,8 @@
 # No More Sidebar in Mastodon 4.0
 
-Install from [Greasy Fork](https://greasyfork.org/en/scripts/454048-no-more-sidebar-in-mastodon-4-0).
+<s>Install from [Greasy Fork](https://greasyfork.org/en/scripts/454048-no-more-sidebar-in-mastodon-4-0).
 
-Need [Violentmonkey](https://violentmonkey.github.io/get-it/) to work with.
+Need [Violentmonkey](https://violentmonkey.github.io/get-it/) to work with.</s>
 
 ## [topbar.css](https://github.com/AkazaRenn/No-More-Sidebar-in-Mastodon-4.0/blob/main/css/topbar.css)
 
