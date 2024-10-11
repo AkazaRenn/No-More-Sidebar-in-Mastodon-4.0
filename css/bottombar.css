@@ -60,6 +60,7 @@
         align-items: center;
         display: flex;
         color: #DDD9E8;
+        transform: scale(1.1);
     }
     .ui__header__links > .button:hover {
         color: white;
