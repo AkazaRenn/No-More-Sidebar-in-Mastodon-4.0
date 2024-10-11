@@ -59,7 +59,7 @@
         width: 47.5px;
         align-items: center;
         display: flex;
-        color: #D9E1E8;
+        color: #DDD9E8;
     }
     .ui__header__links > .button:hover {
         color: white;
